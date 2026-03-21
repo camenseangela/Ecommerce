@@ -128,8 +128,7 @@ STATIC_URL = 'static/'
 
 # CORS Settings
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://localhost:3001",           # React frontend
+    "http://localhost:3000",      # React frontend
     "http://127.0.0.1:3000",
     "http://localhost:8000",      # Django admin
     "http://127.0.0.1:8000",

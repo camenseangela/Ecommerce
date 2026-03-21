@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Card, CardHeader, Button, Alert, Loading } from '../components/ui';
+import { Card, CardHeader, Alert, Loading } from '../components/ui';
 import { StatCard } from '../components/features';
 import { productAPI, customerAPI, orderAPI, orderItemAPI } from '../services/api';
 
